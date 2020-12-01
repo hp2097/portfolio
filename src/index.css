@@ -1,13 +1,186 @@
+/** @format */
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.row {
+  margin: 0px;
+}
+
+.navbar {
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(40, 81, 114);
+
+  width: 100%;
+  position: sticky;
+}
+
+.navbar-collapse {
+  padding-right: 50px;
+}
+
+.logo-name {
+  margin-left: 3rem;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-header-links {
+  margin-left: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.cols {
+  margin: 0px;
+}
+
+.myData {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.myPhoto {
+  margin-right: 0;
+  border-bottom: black;
+  background-color: rgb(33, 150, 243);
+  border-style: solid;
+  border-width: 2px;
+  padding: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.myPhoto hr {
+  width: 10%;
+  background-color: white;
+  border-width: 5px;
+  margin-top: 0px;
+  padding-right: 20px;
+}
+.myPhoto img {
+  width: 225px;
+  height: 225px;
+  border-radius: 1000px;
+  margin-bottom: 0px;
+  margin-top: 5rem;
+}
+
+.name {
+  padding-left: 10px;
+  font-size: 3rem;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+}
+.position {
+  padding-left: 10px;
+  font-size: 1.5rem;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: -200;
+}
+
+.myBox {
+  margin-right: 0;
+  margin-top: 10px;
+  min-height: 250px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.project-card {
+  margin-top: 10px;
+}
+
+.my-icons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(40, 81, 114);
+  padding-top: 2rem;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: rgb(40, 81, 114);
+  border-top: white;
+  box-shadow: white;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card-body h5 {
+  text-align: center;
+  color: rgb(40, 81, 114);
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.list-tech ul li {
+  align-items: center;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name-about {
+  font-weight: bold;
+  color: rgb(40, 81, 114);
+}
+
+h5 {
+  color: rgb(40, 81, 114);
+}
+
+.navbar-toggler {
+  background-color: white;
+  color: black;
+}
+
+.navig-links {
+  color: blanchedalmond;
+}
+
+.navbar-light {
+  color: white;
 }
