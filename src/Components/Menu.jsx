@@ -35,7 +35,7 @@ export default function Menu() {
         <a style={{color:"white"}} className="nav-link nav-header-links" onClick={()=>{mobToggleNavBar()}} href="#about">About <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item ">
-        <a style={{color:"white"}} className="nav-link nav-header-links" onClick={mobToggleNavBar} href="#project">Project<span className="sr-only">(current)</span></a>
+        <a style={{color:"white"}} className="nav-link nav-header-links" onClick={()=>{mobToggleNavBar()}} href="#project">Project<span className="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
